@@ -124,7 +124,8 @@ const Shop = () => {
     });
     setFilteredData(updatedItems);
   };
-  const handleminus = (id) => {
+  const handleminus = (id) => { 
+    // vdshk
     const updatedItems = filteredData.map((item) => {
       if (item?.quantity === 1) {
         return item;
@@ -290,7 +291,7 @@ const Shop = () => {
                       ADD TO 🛒
                     </button>
                     {/* <h1> 🛒 </h1> */}
-                    
+
                   </div>
                 </div>
               </div>
